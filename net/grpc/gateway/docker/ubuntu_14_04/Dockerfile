@@ -35,7 +35,7 @@ RUN add-apt-repository ppa:openjdk-r/ppa && \
   openjdk-8-jdk \
   openjdk-8-jre
 
-RUN git clone https://github.com/grpc/grpc-web /github/grpc-web
+RUN git clone https://github.com/ykstudy/grpc-web.git /github/grpc-web
 
 RUN cd /github/grpc-web && \
   ./scripts/init_submodules.sh

@@ -32,4 +32,4 @@ WORKDIR /var/www/html/dist
 
 WORKDIR /github/grpc-web
 
-RUN git clone https://github.com/grpc/grpc-web .
+RUN git clone https://github.com/ykstudy/grpc-web.git .

@@ -88,7 +88,7 @@ is [Envoy](https://www.envoyproxy.io/). Please visit our
 Here's a quick way to get started!
 
 ```sh
-$ git clone https://github.com/grpc/grpc-web
+$ git clone https://github.com/ykstudy/grpc-web.git
 $ cd grpc-web
 $ docker-compose up node-server envoy commonjs-client
 ```

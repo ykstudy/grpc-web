@@ -31,7 +31,7 @@ RUN apt-get update && apt-get install -y \
   make \
   zip
 
-RUN git clone https://github.com/grpc/grpc-web /github/grpc-web
+RUN git clone https://github.com/ykstudy/grpc-web.git /github/grpc-web
 
 RUN cd /github/grpc-web && \
   ./scripts/init_submodules.sh
